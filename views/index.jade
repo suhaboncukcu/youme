@@ -1,5 +1,7 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .row
+    - var classes = ['large-6', 'small-12', 'large-centered']
+    .columns(class=classes)
+        |hede hede hede
